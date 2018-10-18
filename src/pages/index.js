@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaInstagram, FaFacebookF, FaRegEnvelopeOpen, FaTwitter } from 'react-icons/fa'
+import { FaInstagram, FaFacebookSquare, FaRegEnvelopeOpen, FaTwitterSquare } from 'react-icons/fa'
 import { MdPhone } from 'react-icons/md'
 
 import Section from '../components/Section'
@@ -81,10 +81,10 @@ const IndexPage = () =>
     </Content>
 
     <Footer>
-      <SocialIcon href='tel:9569291450' target='_blank'><MdPhone style={{ display: 'flex' }} /></SocialIcon>
+    <SocialIcon href='tel:9569291450' target='_blank'><MdPhone style={{ display: 'flex' }} /></SocialIcon>
+      <SocialIcon href='tel:9569291450' target='_blank'><FaFacebookSquare style={{ display: 'flex' }} /></SocialIcon>
       <SocialIcon href='tel:9569291450' target='_blank'><FaInstagram style={{ display: 'flex' }} /></SocialIcon>
-      <SocialIcon href='tel:9569291450' target='_blank'><FaFacebookF style={{ display: 'flex' }} /></SocialIcon>
-      <SocialIcon href='tel:9569291450' target='_blank'><FaTwitter style={{display: 'flex'}} /></SocialIcon>
+      <SocialIcon href='tel:9569291450' target='_blank'><FaTwitterSquare style={{display: 'flex'}} /></SocialIcon>
       <SocialIcon href='tel:9569291450' target='_blank'><FaRegEnvelopeOpen style={{ display: 'flex' }} /></SocialIcon>
     </Footer>
 
